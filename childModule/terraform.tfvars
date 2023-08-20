@@ -1,0 +1,12 @@
+modName                             = "swara"
+modLocation                         = "central india"
+modPrivate_ip_address_allocation    = "Dynamic"
+modAddress_space                    = ["10.0.0.0/16"]
+modAddress_prefixes                 = ["10.0.2.0/24"]
+modVm_size                          = "Standard_DS1_v2"
+modDelete_data_disks_on_termination = true
+modDelete_os_disk_on_termination    = true
+mod_create_option = "FromImage"
+mod_admin_username = "testadmin"
+mod_admin_password = "Password123!"
+mod_computer_name = "hostname"
